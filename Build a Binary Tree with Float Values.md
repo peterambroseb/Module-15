@@ -18,12 +18,26 @@ To write a Python program to build a binary tree with a root, left, and right no
 
 ## PYTHON PROGRAM
 
-```
-ENTER YOUR CODE
+```python
+
+
+from binarytree  import Node
+l=[]
+for i in range(3):
+    n=input()
+    l.append(n)
+root=Node(l[0])
+root.left=Node(l[1])
+root.right=Node(l[2])
+#rootNode=[root,root.left,root.right]
+print("Binary Tree :")
+for i in root.values:
+    print(i,'--> ',end='')
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/cbf1deeb-1e31-406b-a3f6-d20ff3f75b9a)
+
 
 ## RESULT
+Thus the python program to build a binary tree with a root, left, and right node using floating-point values was successfully executed.
